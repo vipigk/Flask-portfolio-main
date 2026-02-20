@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}About | Vipin Gopal{% endblock %}
+
+{% block content %}
+<section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-image" data-aos="fade-right">
+                    <img src="{{ url_for('static', filename='img/profile.jpg') }}" alt="Photo of Vipin Gopal">
+                </div>
+                <div class="about-content" data-aos="fade-left">
+                    <p>"I build and defend the infrastructure that keeps businesses running. As a Senior System Administrator, I bridge the gap between powerful hardware and secure software, managing everything from hyperconverged infrastructure to multi-vendor storage solutions. My philosophy centers on 'security-first' administration, ensuring that every server—whether Windows or Linux—is protected by top-tier NDR and backup solutions. I don't just manage servers; I ensure business continuity through architectural excellence.".</p>
+                    
+                    <p>" I specialize in orchestrating complex virtual environments across Nutanix AHV, VMware ESXi, and Hyper-V, ensuring high availability for both Linux and Windows ecosystems. My expertise extends to enterprise-grade storage management—including Dell Unity and ME Series—and the implementation of rigorous data protection strategies using Commvault and Backup Exec. With a strong focus on the modern threat landscape, I integrate advanced security layers like CrowdStrike NDR and Proofpoint to safeguard critical organizational assets"</p>
+                    
+                    <div class="skills-tags">
+                        <span class="tag">Hyperv</span>
+                        <span class="tag">Nutanix</span>
+                        <span class="tag">VMWARE</span>
+                        <span class="tag">Dell Storage</span>
+                        <span class="tag">Crowdstrike</span>
+                        <span class="tag">Proofpoint</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}

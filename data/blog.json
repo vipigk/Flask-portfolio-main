@@ -1,0 +1,20 @@
+[
+  {
+    "title": "How I Built My Portfolio Website",
+    "date": "2025-07-01",
+    "author": "Vipin Gopal",
+    "content": "This blog post explains how I built my full-stack portfolio website using Flask and TailwindCSS."
+  },
+  {
+    "title": "Top 5 VS Code Extensions for Web Developers",
+    "date": "2025-06-20",
+    "author": "Vipin Gopal",
+    "content": "Explore some useful VS Code extensions that speed up web development and improve code quality."
+  },
+  {
+    "title": "Getting Started with Flask Blueprints",
+    "date": "2025-06-10",
+    "author": "Vipin Gopal",
+    "content": "Learn how to use Flask Blueprints to modularize your Python web applications effectively."
+  }
+]

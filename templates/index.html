@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block title %}Home | VIPIN GOPAL{% endblock %}
+
+{% block content %}
+<section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm Vipin Gopal</h1>
+            <h2>Senior System Administrator</h2>
+            <p>I specialize in IT Infrastructue Solutions, Storage Management, and Security Solutions. Passionate about solving complex problems and creating innovative solutions that make an impact.</p>
+            <a href="{{ url_for('about') }}" class="cta-button">Explore My Journey</a>
+        </div>
+        <div class="hero-bg"></div>
+    </section>
+<!-- About Section -->
+<section id="about" class="scroll-mt-20">
+  {% include 'about.html' %}
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="scroll-mt-20">
+  {% include 'skills.html' %}
+</section>
+
+<!-- Certifications Section -->
+<section id="certification" class="scroll-mt-20">
+  {% include 'certification.html' %}
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="scroll-mt-20">
+  {% include 'contact.html' %}
+</section>
+{% endblock %}
