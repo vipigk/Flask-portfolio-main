@@ -1,5 +1,5 @@
 #!/bin/bash
-#python -v
+python -v
 
 #Clone the repo
 
@@ -15,4 +15,4 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 #Run the Flask app
-flask run
+gunicorn -w 4 -b 0.0.0.0:8000 app:app
